@@ -1,0 +1,50 @@
+.admin-dashboard-container {
+    padding: 20px;
+  }
+  
+  .customers-table {
+    margin-top: 20px;
+  }
+  
+  .customers-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .customers-list-table th, .customers-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .customers-list-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .edit-button, .delete-button, .view-button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .view-button {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .empty-message {
+    color: red;
+  }
+  

@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+   
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+.navbar li{
+    list-style-type: none;
+    
+}
+.link{
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content: end;
+}

@@ -1,0 +1,60 @@
+/* Deposit.css */
+
+/* Style for the main container */
+.deposit-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for headings */
+  .deposit-container h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Style for input fields */
+  .deposit-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  .deposit-container input[type="number"],
+  .deposit-container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .deposit-container input[type="number"] {
+    max-width: 200px;
+  }
+  
+  .deposit-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .deposit-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for balance display */
+  .deposit-container h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #555;
+  }
+  

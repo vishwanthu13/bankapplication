@@ -1,0 +1,142 @@
+/* CustomerDashboard.css */
+
+/* Style for the main container */
+.dashboard-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Style for headings */
+  .dashboard-container h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .dashboard-container h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .display-customer{
+    display: flex;
+    justify-content: space-around;
+  }
+  /* Style for customer details section */
+  .customer-details {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .customer-details p {
+    margin: 5px 0;
+  }
+  
+  /* Style for the records list */
+  .records-list {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .records-list ol {
+    padding-left: 20px;
+  }
+  
+  .records-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .records-list p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Style for empty records message */
+  .empty-message {
+    font-style: italic;
+    color: #888;
+  }
+  .records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .records-table th,
+  .records-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .records-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .records-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .records-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .records-table td {
+    padding: 10px;
+  }
+  
+  .empty-message {
+    padding: 20px;
+    color: #ff0000;
+    font-size: 16px;
+  }
+  .change-password-section {
+    margin-top: 20px;
+  }
+  
+  .password-change-form {
+    margin-top: 10px;
+  }
+  
+  .password-change-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .password-change-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .password-change-form button:hover {
+    background-color: #0056b3;
+  }
+  .flexContainer{
+    display: flex;
+    column-gap: 30px;
+  }
+  .customer-details{
+    flex-grow: 1;
+    width: 60%;
+    
+  }
+  .change-password-section{
+    flex-grow: 1;
+    width: 50%;
+  }
